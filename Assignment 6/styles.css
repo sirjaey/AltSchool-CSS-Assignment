@@ -396,7 +396,7 @@ nav {
 	padding: 5px;
 	button {
 		background-color: #0065fe;
-		border: none;
+		border: 1px solid #0066fe00;
 		border-radius: 50px;
 		color: #ffffff;
 		padding: 10px 30px;

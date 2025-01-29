@@ -152,11 +152,12 @@ input:focus{
         width: 100%;
     }
     .background{
-        padding-top: 0;
+        padding: 0;
         margin: 0;
     }
     .main{
         padding-top: 0;
+        width: 100%;
     }
     .left, .right{
         width: 100%;
@@ -184,4 +185,30 @@ input:focus{
         width: 99%;
     }
 
+}
+
+
+@media screen and (max-width: 800px){
+    nav{
+        display: flex;
+        padding-left: 0;
+        padding: 20px;
+        width: 100%;
+
+        a{
+            font-size: smaller;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        a:nth-child(2) {
+            color: #038e1a;
+            margin: 0;
+        }
+    }
+
+    .left-1{
+        padding-top: 10px;
+    }
+    
 }
