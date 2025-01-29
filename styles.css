@@ -19,13 +19,6 @@ nav{
         padding: 5px;
         text-decoration: none;
     }
-    /* a:nth-child(1){
-        color: red;
-    }
-    a:nth-child(2){
-        color: #038e1a;
-        margin: 25px;
-    } */
     a:hover{
 		border: 1px solid;
 		border-radius: 5px;
@@ -61,14 +54,36 @@ header{
     line-height: 25px;
 }
 
+
+/* RESPONSIVENESS */
 @media screen and (max-width: 769px) {
     body{
         padding: 0;
     }  
+    nav{
+        /* width: 100%; */
+    }
+    header{
+        padding: 10px;
+    }
+    
+    section{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 430px){
     .background{
+        padding: 30px;
+        /* width: 100%; */
+    }
+    .paragraph{
+        /* margin: auto; */
+        padding: 10px;
         width: 100%;
     }
     section{
-        width: 70%;
+        margin: auto;
+        width: 80%;
     }
 }
