@@ -80,8 +80,8 @@ nav {
 	}
 }
 #features{
-	color: black;
 	border: none;
+	color: black;
 	font-size: 16px;
 }
 #features:hover{
