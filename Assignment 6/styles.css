@@ -387,6 +387,7 @@ nav {
 		text-align: center;
 	}
 	button:hover {
+		cursor: pointer;
 		background-color: #0065fe;
 		color: #fff;
 	}
@@ -402,6 +403,7 @@ nav {
 		text-align: center;
 	}
 	button:hover {
+		cursor: pointer;
 		background-color: #fff;
 		border: 1px solid #0065fe;
 		color: #0065fe;
